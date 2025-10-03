@@ -79,3 +79,22 @@ a:hover {
 .nav__link {
     margin-left: 32px;
 }
+/* 
+.nav__link:nth-of-type(5) {
+    margin-left: 150px;
+} */
+/* .nav__link li:nth-of-type(5) {
+    padding-left: 150px; */
+    /* margin-left: 150px;
+} */
+
+.nav__link:nth-child(5) {
+    /* margin-left: 150px; */
+    /* padding-left: 150px; */
+} 
+
+.nav__link:nth-child(5) {
+    padding-left: 150px;
+    /* margin-left: 150px; */
+}
+
