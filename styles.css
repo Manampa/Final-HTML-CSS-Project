@@ -108,7 +108,7 @@ header
 }
 
 .header__title {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 24px;
 }
 
@@ -119,11 +119,7 @@ header
 }
 
 /* 
-
-
 enter your email LOOK OVER LATER 
-
-
 */
 
 .header__email {
@@ -166,9 +162,26 @@ enter your email LOOK OVER LATER
 }
 
 /* 
+enter your email. not my code...
+*/
 
 
-enter your email LOOK OVER LATER 
+.header__customer--titles {
+    margin-top: 80px;
+    font-size: 14px;
+    /* opacity: 0.5; */
+    color: #a0aec0;
+}
+.header__customer--logos {
+    margin-top: 16px;
+    opacity: 0.5;
+    padding-right: 100px;
+}
+
+/* 
+
+
+features
 
 
 */
