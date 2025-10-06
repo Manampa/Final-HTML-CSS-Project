@@ -151,7 +151,7 @@ enter your email LOOK OVER LATER
   transition: border-color 300ms;
 }
 
-.header__email--btn {
+.btn {
   z-index: 2;
   margin: 8px;
   height: calc(100% - 16px);
@@ -201,8 +201,8 @@ features
   height: 100vh;
 }
 .features__wrapper {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .feature__img--wrapper {
@@ -213,18 +213,18 @@ features
 }
 
 .feature__img {
-  width: 25px;
-  height: 25px;
+    width: 25px;
+    height: 25px;
 }
 .feature__text {
-padding-top: 8px;
-padding-left: 16px;
+    padding-top: 8px;
+    padding-left: 16px;
 }
 
 .feature {
-  width: calc(100% / 3);
-  display: flex;
-  padding: 32px 24px;
+    width: calc(100% / 3);
+    display: flex;
+    padding: 32px 24px;
 }
 .feature__title {
     font-size: 24px;
@@ -232,3 +232,52 @@ padding-left: 16px;
 .features__parra {
     padding-top: 20px;
 }
+
+/* 
+
+
+quality
+
+
+*/
+
+#quality .section__tag, 
+#quality .section__title, 
+#quality .section__parra {
+    text-align: left;
+}
+.quality__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#quality .btn {
+    padding: 8px;
+}
+.quality__description {
+    width: 50%;
+    padding-right: 200px;
+}
+
+
+
+.quality__img--wrapper {
+    padding: 50px;
+    width: 50%;
+}
+.quality__img {
+    width: 100%;
+    
+}
+
+
+/* 
+
+
+steps
+
+
+*/
