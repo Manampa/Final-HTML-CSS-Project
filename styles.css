@@ -446,3 +446,47 @@ values
 .value__parra {
   padding: 16px 0 46px 0;
 }
+
+
+
+/* 
+
+
+
+pricing
+
+
+
+*/
+#pricing .section__title {
+  padding-top: 16px;
+}
+
+#pricing .section__parra {
+  max-width: 600px;
+  text-align: center;
+}
+
+
+.pricing__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.pricing__model--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+}
+.pricing__model {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 48px;
+    width: calc(100% / 3);
+    margin: 0 16px;
+}
