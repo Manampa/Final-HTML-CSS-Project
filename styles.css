@@ -491,6 +491,11 @@ pricing
     width: calc(100% / 3);
     margin: 0 16px;
   }
+  .pricing__parra {
+    font-size: 18px;
+    color: #555;
+    padding-bottom: 24px;
+  }
   
   .pricing__price {
       font-size: 48px;
@@ -507,6 +512,7 @@ pricing
     padding: 24px 0;
   }
   .pricing__list--title {
+    font-weight: 700;
     padding: 12px 0;
   }
   .pricing__list--features {
@@ -530,14 +536,34 @@ pricing
   transition: all 300ms ease;
 }
   
+  
+  
+  
+  
+  
+  
+  
+  
+.pricing__model:nth-child(1) .pricing__btn {
+      color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+  
+.pricing__model:nth-child(2) .pricing__btn {
+    color: #6415ff;
+    background-color: #f7fafc;
+ }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ .pricing__model:nth-child(3) .pricing__btn {
+      color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+ }
+ .pricing__model:nth-child(2) {
+  background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  color: #f7fafc;
+ }
+ .pricing__model:nth-child(2) .pricing__parra {
+   color: #f7fafc;
+  }
+
   
