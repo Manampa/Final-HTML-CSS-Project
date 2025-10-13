@@ -89,6 +89,72 @@ a:hover {
   background-color: #6415ff;
 }
 
+
+/* 
+
+java nav burger
+
+*/
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 378px;
+    margin: 24px 16px;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 8px;
+    z-index: 4;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 300ms ease;
+}
+
+.menu__links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu__link {
+    color: #1a202c;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 8px 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.menu__link--primary {
+    color: #f7fafc;
+    padding: 12px 32px;
+    background: #6415ff;
+    border-radius: 500px;
+    border: none;
+}
+
+
+.btn__menu {
+    background-color: transparent;
+    transition: all 300ms ease;
+    border: none;
+    display: none;
+}
+
+
+.btn__menu--close {
+
+    position: fixed;
+    top: 24px;
+    right: 18px;
+}
+
 /* 
 
 header
@@ -177,7 +243,6 @@ enter your email. not my code...
 .header__customer--titles {
   margin-top: 80px;
   font-size: 14px;
-  /* opacity: 0.5; */
   color: #a0aec0;
 }
 .header__customer--logos {
@@ -309,8 +374,6 @@ steps
 }
 #steps .section__title {
   font-weight: 800;
-  /* letter-spacing: 0.025em; */
-  /* display: flex; */
   padding-top: 16px;
 }
 
@@ -366,7 +429,6 @@ values
 
 #values .section__title {
   font-weight: 800;
-  /* letter-spacing: 0.025em; */
   /* display: flex; */
   padding-top: 16px;
 }
@@ -443,11 +505,7 @@ values
 
 
 
-.value__title {
-  /* font-size: 24px;
-  font-weight: 700;
-  padding-bottom: 8px; */
-}
+
 .value__list {
   display: flex;
 }
@@ -645,7 +703,7 @@ testimonials
 /* 
 
 
-btns dont want to show for some reason
+btns dont want to show without width for some reason 
 
 
 */
