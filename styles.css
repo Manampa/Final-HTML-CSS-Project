@@ -674,6 +674,8 @@ btns dont want to show for some reason
   border-radius: 50%;
   margin: 0 12px;
   transition: all 300ms ease;
+  width: 50px;
+  height: 50px;
 }
 
 
