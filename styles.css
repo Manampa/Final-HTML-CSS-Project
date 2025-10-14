@@ -7,6 +7,7 @@
 }
 html {
   scroll-behavior: smooth;
+  background-color: rgb(29, 53, 88);
 }
 
 body {
@@ -38,13 +39,16 @@ a {
 li {
   list-style: none;
 }
+button {
+  cursor: pointer;
+}
 
 .purple {
   color: #7342d6;
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .nav__container {
   width: 100%;
@@ -146,14 +150,28 @@ java nav burger
     border: none;
     display: none;
 }
-
-
 .btn__menu--close {
 
     position: fixed;
     top: 24px;
     right: 18px;
 }
+
+.menu--open {
+    max-height: 100vh;
+    overflow-y: hidden
+}
+.menu__list {
+    padding: 32px 0;
+}
+.menu--open .menu
+ {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
 
 /* 
 
@@ -173,7 +191,7 @@ header
 }
 
 .header__img--wrapper {
-  width: calc(100% - 35%);
+  /* width: calc(100% - 35%); */
 }
 .section__tag {
   font-size: 16px;
@@ -270,6 +288,7 @@ features
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   height: 100vh;
 }
 .features__wrapper {
@@ -555,7 +574,7 @@ pricing
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 48px 96px 24px 96px;
-  width: calc(100% / 3);
+  /* width: calc(100% / 3); */
   margin: 0 16px;
 }
 .pricing__parra {
@@ -819,6 +838,9 @@ footer
 
 
 */
+#footer li {
+  padding: 6px 0;
+}
 
 footer {
   background-color: rgb(100, 21, 255);
@@ -844,10 +866,16 @@ footer {
   font-weight: 700;
   padding-bottom: 16px;
 }
+
+
+
+
 .footer__link {
   padding: 6px 0;
-
+  color: #fff;
+  
 }
+
 
 .footer__divider {
   border: solid 1px rgb(116, 44, 255);
@@ -882,3 +910,53 @@ footer {
   background-color: #fff;
   margin-right: 12px;
 }
+
+
+/* 
+
+
+media
+
+
+*/
+
+@media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+  .btn__menu {
+    display: block;
+  }
+  .header__container {
+    flex-direction: column;
+  }
+  .header__description {
+    height: 50vh;
+  }
+  .header__customer--logos {
+    height: 10%;
+  }
+  .header__img {
+    height: 40vh;
+  }
+  
+.pricing__model--wrapper {
+    flex-direction: column;
+}
+.pricing__container {
+  height: 100%;
+}
+.header__customer--titles {
+  margin-top: 36px;
+  text-align: center;
+  padding-right: 96px;
+}
+.header__customer--logos {
+  margin-bottom: 12px;
+}
+.pricing__model {
+  margin-bottom: 24px;
+}
+}
+
+@media (max-width: 768px) 
