@@ -7,7 +7,7 @@
 }
 html {
   scroll-behavior: smooth;
-  background-color: rgb(29, 53, 88);
+  /* background-color: rgb(29, 53, 88); */
 }
 
 body {
@@ -389,7 +389,8 @@ steps
     height: 100vh;
 }
 #steps .section__tag {
-  display: flex;
+  text-align: left;
+  /* display: flex; */
 }
 #steps .section__title {
   font-weight: 800;
@@ -959,4 +960,139 @@ media
 }
 }
 
-@media (max-width: 768px) 
+@media (max-width: 768px) {
+
+  .header__container {
+    padding-top: 50px;
+  }
+  .header__description {
+    text-align: center;
+    width: calc(100% - 20%);
+  }
+  .section__title {
+    font-size: 28px;
+  }
+  .header__customer--titles{
+    padding-right: 0;
+  }
+  .header__customer--logos {
+    padding-right: 0;
+  }
+  .header__img {
+    margin-bottom: 96px;
+  }
+  .header__email {
+  margin-left: 50px;
+}
+#features .section__title {
+  text-align: center;
+}
+.features__container {
+  padding: 56px 0 0 0;
+  height: 100%;
+}
+.features__wrapper {
+  align-items: center;
+  justify-content: center;
+  
+}
+.feature {
+  width: 100%;
+  max-width: 400px;
+}
+.quality__container {
+  flex-direction:column-reverse;
+  justify-content: center;
+  text-align: center;
+  height :100vh;
+}
+
+#quality .section__title {
+  text-align: center;
+
+} 
+#quality .section__tag {
+  text-align: center;
+}
+#quality .section__parra {
+  text-align: center;
+}
+.quality__img--wrapper {
+  padding: 0 0 36px 0;
+  width: 70%;
+}
+.steps__container {
+  flex-direction: column;
+  justify-content: center;
+
+}
+.steps__img--wrapper {
+  width: 70%;
+  padding: 0 0 46px 0;
+}
+.steps__description {
+  width: 60%;
+}
+#steps .section__tag {
+  text-align: center;
+
+}
+.values__container {
+  flex-direction: column-reverse;
+}
+.values__img {
+  width: 70%;
+}
+.values__description {
+  width: 55%;
+}
+#values .section__tag {
+  text-align: center;
+}
+.values__btn {
+  text-align: center;
+}
+
+.pricing__container {
+  margin-top: 116px;
+}
+
+.testimonials__container {
+  flex-direction: column;
+}
+.testimonials__img--wrapper {
+  padding: 0 0 46px 0;
+  width: 70%;
+}
+.testimonials__description {
+  text-align: center;
+}
+#testimonials .section__tag {
+  text-align: center;
+}
+.start__row {
+  flex-direction: column;
+}
+.start__title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.footer__container {
+  height: 100%;
+}
+.footer__top {
+  flex-wrap: wrap;
+}
+.footer__links {
+  width: 50%;
+}
+
+
+
+
+
+}
+
+
+
