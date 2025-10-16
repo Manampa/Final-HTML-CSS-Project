@@ -893,6 +893,9 @@ footer {
   display: flex;
   align-items: center;
 }
+.footer__logo--title {
+  padding-left: 12px;
+}
 
 .footer__img {
   width: 36px;
@@ -1085,7 +1088,19 @@ media
   flex-wrap: wrap;
 }
 .footer__links {
+  text-align: center;
+  padding: 0 0 24px;
   width: 50%;
+}
+.footer__bottom {
+  flex-direction: column;
+}
+.footer__logo {
+  padding: 0 0 24px 0;
+}
+.footer__copyright {
+  padding: 0 0 24px 0;
+
 }
 
 
